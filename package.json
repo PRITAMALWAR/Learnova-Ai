@@ -1,0 +1,12 @@
+{
+  "name": "learnova-ai",
+  "private": true,
+  "description": "AI Study Planner — run backend + frontend from repo root",
+  "scripts": {
+    "setup": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:api": "npm run dev --prefix backend",
+    "dev:web": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start:api": "npm run start --prefix backend"
+  }
+}
